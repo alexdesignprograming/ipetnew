@@ -10,7 +10,7 @@
 server "13.233.174.62", user: "ubuntu", roles: %w{app db web}
 
 set :ssh_options, {
-	keys: %w(/Users/alexprograming/Área de Trabalho/ipet.pem),
+	keys: %w(/home/alexprograming/Área de Trabalho/ipet.pem),
 	forward_agent: false,
 	auth_methods: %w(publickey password)
 }
