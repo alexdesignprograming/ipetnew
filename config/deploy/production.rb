@@ -7,7 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server '13.233.174.62', user: 'ubuntu', roles: %w{app db web}
+server '52.67.198.204', user: 'ubuntu', roles: %w{app db web}
 
 set :ssh_options, {
 	keys: %w(/Users/alexprograming/Área de Trabalho/ipet.pem),
