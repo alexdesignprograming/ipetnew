@@ -27,7 +27,7 @@ gem 'bootstrap-sass', '~> 3.4.1'
 gem 'devise' 
 
 #image uploads to amazon S3
-gem 'carrierwave', "0.10.0"
+gem 'carrierwave', "1.3.2"
 gem 'fog', '~> 1.37.0'
 
 #image  resizing
